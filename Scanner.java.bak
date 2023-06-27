@@ -1,0 +1,20 @@
+public static void main(String[] args) {
+
+				Scanner scan = new Scanner (System.in);
+				 String [][]arr = new String [7][5];
+				 for(int i=0;i<=arr.length-1;i++) {
+					 for(int j=0;j<=arr.length-1;j++) {
+				System.out.println("enter the bank names"+i+"customers"+j);
+				 arr[i][j]=scan.nextstring();
+				}
+	            }
+			System.out.println("array contents are....");
+			for(int i = 0;i<=arr.length-1;i++)
+			{
+				for(int j = 0;j<=arr.length-1;j++)
+				{
+					System.out.println(arr[i][j]+"  ");
+				}
+			}
+			}
+			}
